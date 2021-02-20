@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+<title>
+    form page
+</title>
+
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+ <div class="jumbotron mt-5">
+     <h1>{{data.name}}</h1>
+     <h2> {{data.profile.class_name}}</h2>
+     <h2> {{data.profile.age}}</h2>
+ </div>
+</div>
+{%  endblock %}
